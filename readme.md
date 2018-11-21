@@ -84,5 +84,3 @@ model = word2vec.Word2Vec.load('namu.model')
 ```python
 model.wv.most_similar(positive=[...], negative=[...])
 ```
-
-# NamuWiki-WordVec

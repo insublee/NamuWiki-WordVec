@@ -1,0 +1,5 @@
+requests==2.18.4
+progressbar==2.5
+konlpy==0.4.5
+gensim==3.5.0
+ijson==2.3

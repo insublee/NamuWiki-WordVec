@@ -6,7 +6,7 @@ namuwiki_dump_link = "https://cdn-us.mu-star.net/wikidb/namuwiki180326.7z"
 print(" [x] Start downloading Namuwiki Dump File")
 
 # Create Local filename
-local_filename = "namuwiki_dump_link.split('/')[-1]"
+local_filename = "namuwiki_dump_link".split('/')[-1]
 
 # Initialize Progress Bar
 bar = progressbar.ProgressBar(
